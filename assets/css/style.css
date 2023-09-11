@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .row a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .col-3 {
+    flex-basis: 33.3%;
+  }
+
+  #searchbar{
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 70%;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+
+.surah{
+  display: none;    
+ } 
+
+ .ayah {
+    max-width: 1250px;
+    margin: auto;
+    font-size: 23px;
+    margin-top: 50px;
+ }
+
+ ol a {
+  text-decoration: none;
+  color: black;
+ }
+
+  @media screen and (max-width: 768px) {
+        .col-3 {
+            flex-basis: 50%;
+        }
+  }
+
+  @media screen and (max-width: 500px) {
+    .col-3 {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+}
