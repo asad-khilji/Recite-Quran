@@ -5,19 +5,19 @@ const createNav = () => {
     <nav>
     <ul>
         <li>
-            <a href="juz.html">Juz</a>
+            <a href="#">Juz 1-6</a>
         </li>
         <li>
-            <a href="hizb.html">Hizb</a>
+            <a href="#l">Juz 7-12</a>
         </li>
         <li>
-            <a href="part.html">Part</a>
+            <a href="#">Juz 13-19</a>
         </li>
         <li>
-            <a href="page.html">Page</a>
+            <a href="#">Juz 19-25</a>
         </li>
         <li>
-            <a href="surah.html">Surah</a>
+            <a href="#">Juz 25-30</a>
         </li>
     </ul>
 </nav>
