@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
+a { 
+  text-decoration: none;
+  color: black;
+}
+
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    text-align: center;
+  }
+
+  nav {
+    display: none;
   }
   
-  header h1 {
+  /* header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
@@ -37,7 +43,7 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-  }
+  } */
 
   .row {
     display: flex;
