@@ -96,6 +96,10 @@ header {
   color: black;
  }
 
+ .right {
+  text-align: right;
+ }
+
   @media screen and (max-width: 768px) {
         .col-3 {
             flex-basis: 50%;
@@ -106,5 +110,9 @@ header {
     .col-3 {
         flex-basis: 100%;
         padding: 20px;
+    }
+
+    .ayah {
+      padding: 20px;
     }
 }
